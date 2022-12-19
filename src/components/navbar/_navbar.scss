@@ -14,12 +14,14 @@ nav {
     width: 35%;
     margin-right: 5%;
     border: 1px solid black;
+
+    justify-content: flex-end;
     align-items: center;
 
     &_item {
-      width: 25%;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-right: 1rem;
+      width: 20%;
+      text-align: center;
     }
   }
 }
