@@ -5,8 +5,8 @@ import userIcon from '../../assets/icons/user.png';
 const Navbar = () => {
   return (
     <nav>
-      <img src={redditLogo} alt="reddit-logo" height="35" />
-      <label className="logo">Search bar</label>
+      <img className="logo" src={redditLogo} alt="reddit-logo" height="35" />
+      <label>Search bar</label>
       <ul className="list">
         <li className="list_item">
           <Button
