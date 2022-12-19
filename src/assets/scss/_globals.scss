@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Mukta');
+
 *,
 *::before,
 *::after {
@@ -6,12 +8,19 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-size: 16px;
+}
+
+li,
+a,
+button {
+  font-family: 'Mukta', sans-serif;
+  font-weight: 500;
+  font-size: 100%;
 }
 
 body {
-}
-
-nav {
+  font-size: 100%;
 }
 
 h1,

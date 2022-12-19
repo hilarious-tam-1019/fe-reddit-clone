@@ -1,23 +1,29 @@
+import Button from '../button/Button';
+import RedditLogo from '../../assets/svg/reddit-logo.svg';
+
 const Navbar = () => {
   return (
     <nav>
-      <label className="logo">Reddit</label>
+      <img src={RedditLogo} alt="reddit-logo" height="35" />
+      <label className="logo">Search bar</label>
       <ul className="list">
-        <li>
+        <li className="list_item">
           <a href="#">Reddit Recap</a>
         </li>
-        <li>
-          <a className="button button_grey" href="#">
-            Get App
-          </a>
+        <li className="list_item">
+          <Button
+            style={{ background: '#c5c5c5', color: '#000' }}
+            name="Get App"
+          />
         </li>
-        <li>
-          <a className="button button_red" href="#">
-            Log In
-          </a>
+        <li className="list_item">
+          <Button
+            style={{ background: '#ff5700', color: '#ffffff' }}
+            name="Login In"
+          />
         </li>
-        <li>
-          <a href="#">User Icon</a>
+        <li className="list_item">
+          <a href="#">User Icon </a>
         </li>
       </ul>
     </nav>

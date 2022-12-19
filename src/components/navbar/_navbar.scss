@@ -1,34 +1,25 @@
 nav {
   display: flex;
-  justify-content: space-between;
-  background: #ffffff;
-  height: 45px;
+  height: 100%;
   width: 100%;
-  border-bottom: 0.5px solid #c1bcbc;
-}
+  justify-content: space-between;
+  align-items: center;
 
-.list {
-  margin-right: 50px;
-  margin-top: 10px;
-  display: flex;
-}
+  background: #ffffff;
+  height: 2.8125rem;
+  border-bottom: 0.03125rem solid #c1bcbc;
 
-.button {
-  display: block;
-  width: 120px;
-  height: 35px;
-  text-align: center;
-  border-radius: 10px;
-  font-weight: bold;
-  line-height: 30px;
+  .list {
+    display: flex;
+    width: 35%;
+    margin-right: 5%;
+    border: 1px solid black;
+    align-items: center;
 
-  &_grey {
-    background: #c5c5c5;
-    color: #000;
-  }
-
-  &_red {
-    background: #ff5700;
-    color: #ffffff;
+    &_item {
+      width: 25%;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
   }
 }
