@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './assets/scss/styles.scss';
+import './main.css';
+
 import {
   ApolloClient,
   InMemoryCache,
