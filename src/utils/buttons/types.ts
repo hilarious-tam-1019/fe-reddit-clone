@@ -1,5 +1,4 @@
 export interface ButtonProps {
   title: string;
-  background: string;
-  fontSize: string;
+  type: 'redOrange' | 'grey';
 }

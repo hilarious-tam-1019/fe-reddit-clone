@@ -3,10 +3,10 @@ import PrimaryButton from '../utils/buttons/PrimaryButton';
 
 const Header = () => {
   return (
-    // <header>
-    //   <div className=""
-    // </header>
-    <PrimaryButton title="Log In" />
+    <>
+      <PrimaryButton title="Log In" type="redOrange" />
+      <PrimaryButton title="Get App" type="grey" />
+    </>
   );
 };
 export default Header;
