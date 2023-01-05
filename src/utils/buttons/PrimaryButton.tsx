@@ -10,7 +10,7 @@ const PrimaryButton = ({ title, type }: ButtonProps) => {
       className={`${
         type == 'redOrange'
           ? `bg-redOrange text-white`
-          : `bg-background-grey text-black`
+          : `bg-redditTheme-line text-black`
       } text-center border-transparent px-3 py-2 md:w-30 md:ml-4 font-semibold rounded-full text-base`}>
       {title}
     </a>

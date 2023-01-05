@@ -5,8 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: {
-          grey: '#EDEFF1',
+        redditTheme: {
+          field: '#F6F7F8',
+          line: '#EDEFF1',
+          button: '#0079D3',
+          actionIcon: '#878A8C',
         },
         redOrange: '#FF4500',
       },
